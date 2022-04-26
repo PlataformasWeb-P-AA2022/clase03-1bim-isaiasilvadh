@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Demo JavaScript</title>
+  </head>
+  <body>
+    <h1>Nombres</h1>
+    <p id="resultadoNombre"></p>
+    <p id="resultadoApellido"></p>
+    <p id="resultadoCompleto"></p>
+
+
+    
+    <script type="text/javascript" charset="utf-8">
+      function suma(a, b){
+        return a , b;
+      }
+
+  
+      var entrada1 = window.prompt("Escriba el primer nombre: ", " ");
+      var entrada2 = window.prompt("Escriba el segundo nombre: ", " ");
+    
+      var a = (entrada1);
+      var b = (entrada2);
+      var c = suma(a, b);
+      
+
+      document.getElementById("resultadoNombre").innerHTML = "<b>El nombre ingresado es\
+ es: " + a + "</b>";
+      document.getElementById("resultadoApellido").innerHTML = "<b>El apellido ingresado es\
+ es: " + b + "</b>";
+       document.getElementById("resultadoCompleto").innerHTML = "<b>Los nombres completos son\
+ es: " +a+ " "+ b + "</b>";
+      console.log(c);
+    </script>
+  </body>
+</html>
